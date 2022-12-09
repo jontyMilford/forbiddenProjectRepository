@@ -14,7 +14,9 @@ chemistry_matrix = [
   [90, 70, 60, 70, 100]
 ]
 
+
 def display_team_chemistry(players, chemistry_matrix):
+
   # Create a new graph
   G = nx.Graph()
 
@@ -36,3 +38,10 @@ def display_team_chemistry(players, chemistry_matrix):
 
   # Show the plot
   plt.show()
+
+
+def main():
+  display_team_chemistry(players, chemistry_matrix)
+
+if __name__ == "__main__":
+  main()
